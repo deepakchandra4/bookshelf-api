@@ -1,35 +1,26 @@
-BookShelf API
-Overview
-BookShelf API is a beginner-friendly RESTful API built using Node.js and Express.js to manage a simple directory of books. It supports basic CRUD operations (GET, POST, PUT, DELETE) and can be used as a foundation to understand REST APIs and backend development.
+# BookShelf API
 
-Features
-Get all books or a specific book by ID
+## Overview
 
-Add new books
+**BookShelf API** is a beginner-friendly RESTful API built using **Node.js** and **Express.js** to manage a simple directory of books. It supports basic CRUD operations (GET, POST, PUT, DELETE) and is ideal for learning how REST APIs work and how backend development is structured.
 
-Update existing book details
+---
 
-Delete books from the directory
+## Features
 
-Optionally switch between in-memory JSON storage or connect to a database like MongoDB
+- Get all books or a specific book by ID  
+- Add new books  
+- Update existing book details  
+- Delete books from the directory  
+- Optionally switch between in-memory JSON storage or connect to a MongoDB database
 
-Setup Instructions
-Clone this repository
+---
 
-Run npm install to install dependencies
+## Setup Instructions
 
-Run npm run start:dev for development (with auto-reload via nodemon)
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/deepakchandra4/bookshelf-api.git
+   cd bookshelf-api
 
-Run npm run start for production
-
-API Endpoints
-GET /books – Get all books
-
-GET /books/:id – Get a specific book by ID
-
-POST /books – Add a new book
-
-PUT /books/:id – Update an existing book
-
-DELETE /books/:id – Delete a book
 
