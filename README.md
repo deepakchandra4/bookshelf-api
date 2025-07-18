@@ -1,26 +1,35 @@
-# Books Directory
+BookShelf API
+Overview
+BookShelf API is a beginner-friendly RESTful API built using Node.js and Express.js to manage a simple directory of books. It supports basic CRUD operations (GET, POST, PUT, DELETE) and can be used as a foundation to understand REST APIs and backend development.
 
-## Instructions
+Features
+Get all books or a specific book by ID
 
-1. Clone this repo
-2. Run `npm install` command inside the project
-3. For development run `npm run start:dev`
-4. For production run `npm run start`
+Add new books
 
-## Problem Statement
+Update existing book details
 
-The most basic project you can create using Node.js and Express.js or Nest.js is a simple REST API.
+Delete books from the directory
 
-For this purpose, I’d like to suggest you build a book directory, where you would need to create endpoints, using the four most basic methods: GET, POST, PUT and DELETE.
+Optionally switch between in-memory JSON storage or connect to a database like MongoDB
 
-You’d use GET for getting all books or getting only one book by id. With the POST method, you can add a new book to the list. You’d need the PUT method for updating the existing book, and it’s evident that with the DELETE method, you will remove the book from the list.
+Setup Instructions
+Clone this repository
 
-For this kind of application, you don’t have to use the database, and for the first app, you can start with data collected as a JSON file.
+Run npm install to install dependencies
 
-## This project is part of Duomly Projects
+Run npm run start:dev for development (with auto-reload via nodemon)
 
-This repository is used for Practicing nodejs projects mentioned in this Duomly video to refresh about Nodejs
+Run npm run start for production
 
-https://youtu.be/WxsrnhjXAoc
+API Endpoints
+GET /books – Get all books
 
-https://dev.to/duomly/7-amazing-node-js-project-ideas-for-beginners-to-practice-your-skill-and-get-hired-217m
+GET /books/:id – Get a specific book by ID
+
+POST /books – Add a new book
+
+PUT /books/:id – Update an existing book
+
+DELETE /books/:id – Delete a book
+
