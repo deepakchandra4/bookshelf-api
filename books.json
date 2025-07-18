@@ -1,15 +1,22 @@
 [
   { "id": 1, "name": "Alice in Wonderland", "author": "Lewis Carroll" },
-  {
-    "id": 2,
-    "name": "Around the World in Eighty Days",
-    "author": "Jules Verne"
-  },
+  { "id": 2, "name": "Around the World in Eighty Days", "author": "Jules Verne" },
   { "id": 3, "name": "David Copperfield", "author": "Charles Dickens" },
   { "id": 4, "name": "The Adventures of Tom Sawyer", "author": "Mark Twain" },
-  {
-    "id": 5,
-    "name": "Harry Potter and The Philosophers Stone",
-    "author": "J.K. Rowley"
-  }
+  { "id": 5, "name": "Harry Potter and The Philosopher's Stone", "author": "J.K. Rowling" },
+  { "id": 6, "name": "Pride and Prejudice", "author": "Jane Austen" },
+  { "id": 7, "name": "To Kill a Mockingbird", "author": "Harper Lee" },
+  { "id": 8, "name": "1984", "author": "George Orwell" },
+  { "id": 9, "name": "The Great Gatsby", "author": "F. Scott Fitzgerald" },
+  { "id": 10, "name": "Moby-Dick", "author": "Herman Melville" },
+  { "id": 11, "name": "The Catcher in the Rye", "author": "J.D. Salinger" },
+  { "id": 12, "name": "The Lord of the Rings", "author": "J.R.R. Tolkien" },
+  { "id": 13, "name": "The Hobbit", "author": "J.R.R. Tolkien" },
+  { "id": 14, "name": "Frankenstein", "author": "Mary Shelley" },
+  { "id": 15, "name": "The Picture of Dorian Gray", "author": "Oscar Wilde" },
+  { "id": 16, "name": "Brave New World", "author": "Aldous Huxley" },
+  { "id": 17, "name": "The Alchemist", "author": "Paulo Coelho" },
+  { "id": 18, "name": "Life of Pi", "author": "Yann Martel" },
+  { "id": 19, "name": "The Chronicles of Narnia", "author": "C.S. Lewis" },
+  { "id": 20, "name": "The Kite Runner", "author": "Khaled Hosseini" }
 ]

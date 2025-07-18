@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "description": "A practice project for REST APIs",
   "main": "app.js",
+  "type": "module",
   "dependencies": {
-    "express": "^4.17.1"
+    "dotenv": "^17.2.0",
+    "express": "^4.17.1",
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
   "scripts": {
     "start": "node app.js",
-    "start:dev": "nodemon --watch app.js --watch books.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

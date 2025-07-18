@@ -42,4 +42,4 @@ router.delete('/:id', (req, res) => {
   res.json({ message: `Book with id #${id} has been deleted` });
 });
 
-module.exports = router;
+export default router;
