@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chandrangreat/books-directory-nodejs.git"
+    "url": "git+https://github.com/deepakchandra4/bookshelf-api.git"
   },
   "keywords": [
     "books-directory"
